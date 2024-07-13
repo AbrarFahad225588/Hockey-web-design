@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-link:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+.container-bg{
+    
+    background-color: black;
+} 
+.txt-color{
+    background-color: black;
+}
+
+.card-bdy{
+    text-align: center;
+}
+.progress-section{
+    height: 70vh;
+    /* padding: 20px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.banner-card{
+    background: url("images/2.png");
+    background-repeat:none ;
+    background-size: cover;
+    height: 50vh;
+    /* margin-top: 100px; */
+}
+.banner-section{
+    padding: 10px;
+    /* height: 50vh; */
+}
+.banner-card-text
+{
+    height: 50vh;
+    margin-top: 150px;
+}
+.product-detailes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ball-img{
+    width: 100px;
+    height: 100px;
+}
+.ball-card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 3px solid gray;
+    padding: 10px;
+    margin-top: 20px;
+}
+.product{
+    margin-bottom: 100px;
+}
+.footer{
+    background-color: black;
+    padding: 50px;
+    color:white;
+    display: flex;
+    border: 1px solid white;
+    justify-content: space-around;
+}
+
+.logo-of-security-manager{
+    display: flex;
+    align-items: center;
+}
+.footer-h3{
+    color: goldenrod;
+}
+.footer h2{
+    color: goldenrod;
+}
